@@ -1,4 +1,4 @@
-# React Native: Native Social
+# React Native: Native Share
 
 ## Usage
 
@@ -7,5 +7,7 @@
 - API Way
 
 ```javascript
-Share.getCheck().then((url) => { console.log(url); }).catch(e => console.log(e));
+Share.getCheck().then((url) => {
+  console.log(url);
+}).catch(e => console.log(e));
 ```
