@@ -8,19 +8,47 @@
 
 ### Android
 
+### Setting Up AndroidManifest
+*THIS IS AN IMPORTANT STEP*
+
+```diff
+<activity
+    android:name=".MainActivity"
+    android:label="@string/app_name"
+    android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+    android:windowSoftInputMode="adjustResize">
++   <intent-filter>
++       <action android:name="android.intent.action.SEND" />
++       <category android:name="android.intent.category.DEFAULT" />
++       <data android:mimeType="text/*" />
++   </intent-filter>
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+...
+```
+
+## Manually link
+
+### Android
+
 Add `react-native-share` to your `./android/settings.gradle` file as follows:
 
-```text
-include ':react-native-share'
-project(':react-native-share').projectDir = new File(settingsDir, '../node_modules/react-native-share/android/app')
+```diff
+...
+include ':app'
++ include ':react-native-share'
++ project(':react-native-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share/android/app')
 ```
 
 Include it as dependency in `./android/app/build.gradle` file:
 
-```text
+```diff
 dependencies {
     ...
-    compile project(':react-native-share')
+    compile "com.facebook.react:react-native:+"  // From node_modules
++   compile project(':react-native-share')
 }
 ```
 
