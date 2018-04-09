@@ -1,5 +1,11 @@
 # React Native: Native Share
 
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--share-blue.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-share)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-share.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-share/issues)
+
+-   [Usage](#usage)
+-   [License](#license)
+
 ### Android
 
 Add `react-native-share` to your `./android/settings.gradle` file as follows:
