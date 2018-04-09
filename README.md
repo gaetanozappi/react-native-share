@@ -31,8 +31,6 @@
 
 ## Manually link
 
-### Android
-
 Add `react-native-share` to your `./android/settings.gradle` file as follows:
 
 ```diff
