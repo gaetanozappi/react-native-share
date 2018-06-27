@@ -1,7 +1,7 @@
 # React Native: Native Share
 
-[![github home](https://img.shields.io/badge/gaetanozappi-react--native--share-blue.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-share)
-[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-share.svg?style=flat-square)](https://github.com/gaetanozappi/react-native-share/issues)
+[![github home](https://img.shields.io/badge/gaetanozappi-react--native--share-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-share)
+[![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-share.svg?style=flat)](https://github.com/gaetanozappi/react-native-share/issues)
 
 -   [Usage](#usage)
 -   [License](#license)
@@ -83,4 +83,4 @@ Share.getCheck().then((url) => {
 ```
 
 ## License
-The MIT License
+This library is provided under the Apache License.
