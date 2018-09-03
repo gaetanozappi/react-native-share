@@ -1,7 +1,12 @@
-# React Native: Native Share
+# React Native: react-native-share
 
+![platforms](https://img.shields.io/badge/platforms-Android-brightgreen.svg?style=flat&colorB=191A17)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--share-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-share)
+
 [![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-share.svg?style=flat)](https://github.com/gaetanozappi/react-native-share/issues)
+[![github closed issues](https://img.shields.io/github/issues-closed/gaetanozappi/react-native-share.svg?style=flat&colorB=44cc11)](https://github.com/gaetanozappi/react-native-share/issues?q=is%3Aissue+is%3Aclosed)
+[![Issue Stats](https://img.shields.io/issuestats/i/github/gaetanozappi/react-native-share.svg?style=flat&colorB=44cc11)](http://github.com/gaetanozappi/react-native-share/issues)
+[![github license](https://img.shields.io/github/license/gaetanozappi/react-native-share.svg)]()
 
 -   [Usage](#usage)
 -   [License](#license)
