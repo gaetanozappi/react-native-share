@@ -8,8 +8,8 @@
 [![Issue Stats](https://img.shields.io/issuestats/i/github/gaetanozappi/react-native-share.svg?style=flat&colorB=44cc11)](http://github.com/gaetanozappi/react-native-share/issues)
 [![github license](https://img.shields.io/github/license/gaetanozappi/react-native-share.svg)]()
 
--   [Usage](#usage)
--   [License](#license)
+-   [Usage](#-usage)
+-   [License](#-license)
 
 ### Android
 
@@ -73,7 +73,7 @@ protected List<ReactPackage> getPackages() {
 After that, you will need to recompile
 your project with `react-native run-android`.
 
-## Usage
+## 💻 Usage
 
 ```javascript
 import Share from 'react-native-share';
@@ -87,5 +87,5 @@ Share.getCheck().then((url) => {
 }).catch(e => console.log(e));
 ```
 
-## License
+## 📜 License
 This library is provided under the Apache License.
