@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.zappi.intent.share;
 
 import android.content.Intent;
 

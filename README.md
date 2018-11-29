@@ -59,7 +59,7 @@ Finally, you need to add the package within the `ReactInstanceManager` of your
 MainActivity (`./android/app/src/main/java/your/bundle/MainActivity.java`):
 
 ```java
-import com.reactlibrary.SharePackage;  // <---- import this one
+import com.zappi.intent.share.SharePackage;  // <---- import this one
 ...
 @Override
 protected List<ReactPackage> getPackages() {
